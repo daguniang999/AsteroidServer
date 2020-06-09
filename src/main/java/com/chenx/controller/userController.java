@@ -10,4 +10,9 @@ public class userController {
     public String test() {
         return "hello";
     }
+
+    @RequestMapping("/test1")
+    public String test1() {
+        return "hello";
+    }
 }
